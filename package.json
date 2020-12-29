@@ -1,0 +1,26 @@
+{
+  "name": "chat-app-server",
+  "version": "1.0.0",
+  "description": "chat-app-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maemesoft/chat-app-server2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maemesoft/chat-app-server2/issues"
+  },
+  "homepage": "https://github.com/maemesoft/chat-app-server2#readme",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "socket.io": "^3.0.4"
+  }
+}
